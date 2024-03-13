@@ -489,6 +489,7 @@ footer .separator {
 /*RESPONSIVE*/
 
 @media screen and (max-width: 1200px) {
+
     .main .left h5 {
         font-size: 18px;
     }
@@ -512,6 +513,10 @@ footer .separator {
         height: 18rem;
     }
 
+    .aboutMe .right {
+        padding-right: 40px;
+    }
+
     .aboutMe .right h5 {
         font-size: 28px;
     }
@@ -528,5 +533,214 @@ footer .separator {
 
     .portfolio .header .info h3 {
         font-size: 18px;
+    }
+
+    .aptitudes .content {
+        gap: 22px;
+    }
+
+    .aptitudes .content .habilities {
+        margin: 0;
+    }
+
+    /*footer*/
+
+    footer .top ul {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    
+    .navBarButton {
+        display: none;
+    }
+
+    nav ul {
+        gap: 20px;
+    }
+
+    .navBarAnchor {
+        font-size: 15px;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .main .right img {
+        display: none;
+    }
+
+    .aboutMe {
+        flex-direction: column;
+        justify-content: center;
+        padding: 60px 50px;
+    }
+
+    .aboutMe .right {
+        padding-right: 0px;
+    }
+
+    .portfolio .portfo-items {
+        gap: 22px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .portfolio .portfo-items .item {
+        width: 48%;
+        min-width: 290px;
+    }
+
+    .portfolio .header button {
+        scale: 0.8;
+    }
+
+    .aptitudes .content {
+        gap: 22px;
+    }
+
+    .aptitudes .header h3 {
+        font-size: 28px;
+    }
+
+    .aptitudes .header h5 {
+        font-size: 18px;
+    }
+
+    .tech .header h5 {
+        font-size: 22px;
+    }
+
+    .habilities .header h5 {
+        font-size: 22px;
+    }
+
+    .aptitudes .content .habilities {
+        margin-top: 0;
+    }
+
+    footer .top ul {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    nav {
+        justify-content: space-between;
+        padding: 0 42px;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav.open .logo {
+        display: none;
+    }
+
+    nav.open ul {
+        display: flex;
+    }
+
+    nav button#menuButton {
+        display: flex;
+    }
+
+    .main {
+        padding: 42px;
+    }
+
+    .aboutMe {
+        padding: 85px 42px;
+    }
+
+    .portfolio {
+        padding: 60px 42px;
+    }
+
+    .portfolio .portfo-items {
+        gap: 18px;
+    }
+
+    .portfolio .portfo-items .item {
+        width: 80%;
+    }
+
+    .aptitudes {
+        padding: 60px 42px;
+    }
+
+    footer {
+        padding: 60px 42px;
+    }
+
+    footer .top .social-links a, i {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    
+    nav .logo a {
+        font-size: 18px;
+    }
+
+    .navBarAnchor {
+        font-size: 13px;
+    }
+
+    .main .left h3 {
+        font-size: 32px;
+    }
+
+    .main .left p {
+        font-size: 18px;
+    }
+
+    .getInContactButton {
+        width: 100%;
+    }
+
+    .aboutImage {
+        width: 90%;
+    }
+
+    .aboutMe .right p {
+        font-size: 18px;
+    }
+
+    .portfolio .portfo-items .item {
+        width: 100%;
+    }
+
+    .portfolio .header a span {
+        display: none;
+    }
+
+    .aptitudes .habilities .body {
+        gap: 10px;
+    }
+
+    .aptitudes .habilities .body .right .item i {
+        font-size: 18px;
+    }
+
+    .aptitudes .habilities .body .left,.right {
+        height: 250px;
+    }
+
+    .aptitudes .habilities .body .left .item i {
+        font-size: 18px;
+    }
+
+    .aptitudes .habilities .body .left .item p {
+        font-size: 13px;
+    }
+
+    .aptitudes .habilities .body .right .item p {
+        font-size: 13px;
     }
 }

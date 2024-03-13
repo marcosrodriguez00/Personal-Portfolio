@@ -5,31 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="resources/faviconMR-removebg.png" type="image/x-icon">
     <title>Marcos Rodríguez || Developer</title>
 </head>
 <body>
-    
+    <!-- NavBar -->
     <nav>
         <div class="logo">
             <a href="#" class="navBarAnchor">Marcos Rodríguez<br><span>Developer.</span></a>
         </div>
-
         <ul>
             <li class="navBarListItem"><a href="#main" class="navBarAnchor">Home</a></li>
             <li class="navBarListItem"><a href="#aboutme" class="navBarAnchor">Sobre Mi</a></li>
-            <li class="navBarListItem"><a href="#experiencia" class="navBarAnchor">Experiencia</a></li>
-            <li class="navBarListItem"><a href="#tecnologias" class="navBarAnchor">Tecnologías</a></li>
-            <li class="navBarListItem"><a href="#contacto" class="navBarAnchor">Links</a></li>
+            <li class="navBarListItem"><a href="#portfolio" class="navBarAnchor">Portafolio</a></li>
+            <li class="navBarListItem"><a href="#aptitudes" class="navBarAnchor">Aptitudes</a></li>
         </ul>
         <button class="navBarButton"><strong>Contáctame</strong></button>
         <button class="navBarButton" id="menuButton" onclick="openMenu()"><i class='bx bx-menu'></i></button>
     </nav>
 
+    <!-- Main -->
     <div class="main" id="main">
         <div class="left">
             <h5>Hola, soy Marcos</h5>
             <h3>Desarrollador Web <span>Full Stack</span></h3>
-            <p>Soy un entusiasta de la computación y la programación, me gusta aprender y emplear distintas tecnologías de desarrollo, aplicandolas para dar vida a ideas y proyectos. <br>¡No dudes en contactarme si buscas un gran talento para agregar a tu equipo de trabajo!</p>
+            <p>
+                Soy un entusiasta de la computación y la programación, me gusta aprender y emplear distintas tecnologías de desarrollo, aplicandolas para dar vida a ideas y proyectos.  
+            </p> 
+            <p>
+                ¡No dudes en contactarme si buscas un gran talento para agregar a tu equipo de trabajo!
+            </p>
             <button class="getInContactButton">Ponte en contacto</button>
         </div>
         <div class="right">
@@ -37,15 +42,176 @@
         </div>
     </div>
 
+    <!-- About -->
     <div class="aboutMe" id="aboutme">
-        <h5>Sobre Mi</h5>
-        <div class="aboutImage">
-            <img src="resources/about me photo.jpeg" alt="About me photo" class="aboutMePhoto">
-            <span class="circle-spin"></span>
+        <div class="left">
+            <div class="aboutImage">
+                <img src="resources/about me photo.jpeg" alt="About me photo" class="aboutMePhoto">
+                <span class="circle-spin"></span>
+            </div>
         </div>
-        
-        <p></p>
+        <div class="right">
+            <h5>Sobre Mi</h5>
+            <p>
+                ¡Hola! 👋 Soy Marcos, un desarrollador web full stack con un amplio abanico de tecnologías y una perspectiva completa sobre el desarrollo de proyectos web y cómo estos funcionan.
+            </p>
+            <p>
+                Nacido en Argentina y actualmente viviendo en Chile, soy apasionado, creativo y colaborador, me gusta formar parte de equipos de trabajo y estoy ansioso por lanzar mi carrera como programador. 💻🚀
+            </p>
+            
+        </div>
     </div>
+
+    <!-- Portafolio -->
+    <div class="portfolio" id="portfolio">
+        <div class="header">
+            <div class="info">
+                <h5>Proyectos Recientes</h5>
+                <h3>Mi Portafolio</h3>
+            </div>
+            <a href="https://github.com/marcosrodriguez00" target="_blank"><button><i class='bx bxl-github'></i> Mira mi GitHub</button></a>
+        </div>
+
+        <div class="portfo-items">
+            <div class="item">
+                <img src="resources/termasdeconcordia_sc.png" alt="Captura termas">
+                <div class="info">
+                    <h4>BankHub</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores perspiciatis ratione nulla natus, facere obcaecati placeat voluptatibus nesciunt tempora quidem? Alias officiis minus sint assumenda necessitatibus soluta iure eveniet quae.
+                    </p>
+                    <a href="https://termasdeconcordia.ar/" target="_blank"><i class='bx bx-link-external' ></i> Visit WebPage</a>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="resources/termasdeconcordia_sc.png" alt="Captura termas">
+                <div class="info">
+                    <h4>BankHub</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores perspiciatis ratione nulla natus, facere obcaecati placeat voluptatibus nesciunt tempora quidem? Alias officiis minus sint assumenda necessitatibus soluta iure eveniet quae.
+                    </p>
+                    <a href="https://termasdeconcordia.ar/" target="_blank"><i class='bx bx-link-external' ></i> Visit WebPage</a>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="resources/termasdeconcordia_sc.png" alt="Captura termas">
+                <div class="info">
+                    <h4>BankHub</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores perspiciatis ratione nulla natus, facere obcaecati placeat voluptatibus nesciunt tempora quidem? Alias officiis minus sint assumenda necessitatibus soluta iure eveniet quae.
+                    </p>
+                    <a href="https://termasdeconcordia.ar/" target="_blank"><i class='bx bx-link-external' ></i> Visit WebPage</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tecnologías -->
+    <div class="aptitudes" id="aptitudes">
+        <div class="header">
+            <h3>Aptitudes</h3>
+            <h5>Destrezas y Conocimientos</h5>
+        </div>
+        <div class="content">
+            <div class="tech">
+                <div class="header">
+                    <h5>Tecnologías</h5>
+                </div>
+                <div class="body">
+                    <div class="item">
+                        <i class='bx bxl-java'></i>
+                        <p>Java</p>
+                    </div>
+                    <div class="item">
+                        <i class='bx bxl-javascript'></i>
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="item">
+                        <i class='bx bxl-postgresql' ></i>
+                        <p>PostgreSQL</p>
+                    </div>
+                    <div class="item">
+                        <i class='bx bxl-html5' ></i>
+                        <p>HTML</p>
+                    </div>
+                    <div class="item">
+                        <i class='bx bxl-css3'></i>
+                        <p>CSS</p>
+                    </div>
+                    <div class="item">
+                        <i class='bx bxl-vuejs'></i>
+                        <p>Vue.js</p>
+                    </div>
+                    <div class="item">
+                        <i class='bx bxl-spring-boot'></i>
+                        <p>Spring Boot</p>
+                    </div>
+                    <div class="item">
+                        <i class='bx bxl-python'></i>
+                        <p>Python</p>
+                    </div>
+                </div>
+            </div>
+            <div class="habilities">
+                <div class="header">
+                    <h5>Habilidades</h5>
+                </div>
+                <div class="body">
+                    <div class="left">
+                        <div class="item">
+                            <i class='bx bxs-right-arrow'></i><p>AGILE</p>
+                        </div>
+                        <div class="item">
+                            <i class='bx bxs-right-arrow'></i><p>Trabajo en equipo</p>
+                        </div>
+                        <div class="item">
+                            <i class='bx bxs-right-arrow'></i><p>Creatividad</p>
+                        </div>
+                        <div class="item">
+                            <i class='bx bxs-right-arrow'></i><p>Resolutividad</p>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="item">
+                            <i class='bx bxs-right-arrow'></i><p>SCRUM</p>
+                        </div>                    
+                        <div class="item">
+                            <i class='bx bxs-right-arrow'></i><p>Pensamiento analítico</p>
+                        </div>  
+                        <div class="item">
+                            <i class='bx bxs-right-arrow'></i><p>Proactividad</p>
+                        </div>
+                        <div class="item">
+                            <i class='bx bxs-right-arrow'></i><p>Sentido logístico</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="top">
+            <div class="logo">
+                <a href="#" class="navBarAnchor">Marcos Rodríguez<br><span>Developer.</span></a>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">GitHub</a></li>
+                <li><a href="#">Projects</a></li>
+            </ul>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/marcos-rodriguez-499563286/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://github.com/marcosrodriguez00" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="mailto:rodriguezmarcosdeveloper@gmail.com" target="_blank"><i class='bx bxl-gmail'></i></a>
+            </div>
+        </div>
+        <div class="separator"></div>
+    </footer>
 
     <script src="script.js"></script>
 </body>

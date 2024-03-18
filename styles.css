@@ -651,6 +651,7 @@ footer .separator {
 
     .main {
         padding: 42px;
+        height: 
     }
 
     .aboutMe {
@@ -690,6 +691,10 @@ footer .separator {
 
     .navBarAnchor {
         font-size: 13px;
+    }
+
+    .main {
+        height: 500px;
     }
 
     .main .left h3 {
